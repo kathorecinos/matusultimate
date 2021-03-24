@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MatusIntl</string>
+    <string name="inicio">Inicio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Tracking">string/Tracking</string>
+    <string name="Notificaciones">string/Notificaciones</string>
+    <string name="registrar_con_huella">Registrar con huella</string>
+    <string name="ingresar">ingresar</string>
+    <string name="mail">mail</string>
+    <string name="matus">Matus</string>
+    <string name="logo">logo</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="content_description_end_icon">correo</string>
+    <string name="contrase_a">contraseña</string>
+    <string name="correo">correo</string>
+    <string name="contra" />
+    <string name="home">home</string>
+    <string name="user">user</string>
+    <string name="gallery">gallery</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoia2F0aG9yZWNpbm9zIiwiYSI6ImNrbWUzNmxmNjBua28yeW14a3h0bXMzcGgifQ.xddlU6mtgqMJvISIzlHfOQ</string>
+    <string name="lote">Lote</string>
+
+</resources>

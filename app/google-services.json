@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "192515480472",
+    "project_id": "matusintl2020",
+    "storage_bucket": "matusintl2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192515480472:android:6ea8eef647d2c655d169ed",
+        "android_client_info": {
+          "package_name": "com.example.matusintl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192515480472-pcuojphh86ps9u1j4rkldp5882t8dmh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdqBpRRSgUBEGmusPtNV_HUh_oUnscbEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192515480472-pcuojphh86ps9u1j4rkldp5882t8dmh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/border_button"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".PopUpCar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:text="VIN"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_directions_car_242"
+        android:drawableLeft="@drawable/ic_baseline_directions_car_242"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:text="Vehículo"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:text="Cliente"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_location_on_242"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:text="Estatus"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_directions_boat_242"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:text="Puerto"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:text="Costos"
+        android:textAlignment="center"
+        android:textColor="@color/colorGray"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/mapButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_text"
+        android:text="Track"
+        android:textColor="@color/colorPrimary"
+        app:backgroundTint="@color/colorPrimaryDark" />
+
+
+</LinearLayout>
