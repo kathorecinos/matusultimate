@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.matusintl.PopUpCar
+import com.example.matusintl.carUp
 import com.example.matusintl.databinding.FragmentTrackerBinding
 
 
@@ -51,11 +51,13 @@ class trackerFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         binding.buttonTrack.setOnClickListener {
             activity?.let {
-                val intent = Intent(it, PopUpCar::class.java)
+                val intent = Intent(it, carUp::class.java)
                 it.startActivity(intent)
             }
         }
         return
+        // if the dialog is cancelable
+
     }
 
     override fun onDestroyView() {

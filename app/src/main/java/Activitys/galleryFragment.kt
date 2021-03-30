@@ -33,6 +33,7 @@ class galleryFragment : Fragment() {
 
     private val binding get() = _binding!!
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -41,7 +42,10 @@ class galleryFragment : Fragment() {
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
+
+
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

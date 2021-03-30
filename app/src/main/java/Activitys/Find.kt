@@ -44,15 +44,14 @@ class Find : AppCompatActivity(), OnMapReadyCallback {
                 .color(R.color.colorPrimaryDark)
                 .endCap(RoundCap())
                 .add(
-                    LatLng(33.78050382614036, -118.20337330596534),
-                    LatLng(33.7551475743488, -118.21632928555647),
-                    LatLng(11.970694, -106.771554),
+                    LatLng(25.8707306238467, -80.36840935971841),
+                    LatLng(26.122879315343337, -80.10738317364529),
+                    LatLng(22.774482, -85.439154),
+                    LatLng(15.694476370375993, -88.62075035916287),
                     LatLng(13.7835293470295, -89.20225766001776)
+
                 )
         )
-
-
-
         createMarkerElSalvadorCaliRansa()
         createMarkerElSalvadorCaliNe()
         createMarkerElSalvadorCaliSanBar()
@@ -75,6 +74,7 @@ class Find : AppCompatActivity(), OnMapReadyCallback {
         createMarkerCostaRicaFloAlfis()
         createMarkerHondurasCaliVolt()
         createMarkerHondurasFlorVolt()
+
     }
 
     private fun createMarkerElSalvadorCaliRansa() {

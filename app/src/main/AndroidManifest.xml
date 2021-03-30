@@ -17,17 +17,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PopUpCar"></activity>
+        <activity android:name=".carUp"></activity>
         <activity android:name="Activitys.Find" />
         <activity android:name="Activitys.Out" />
         <activity android:name="Activitys.dataSendActivity" />
-        <activity android:name="Activitys.carActivity" />
         <activity android:name="Activitys.main" />
         <activity android:name="Activitys.login" />
         <activity android:name="Activitys.userData" />
         <activity
             android:name="Activitys.Splash"
-            android:label="splash">
+            android:label="MatusApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

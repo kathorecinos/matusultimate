@@ -52,6 +52,12 @@ class UserFragment : Fragment() {
         _binding = FragmentUserBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
+        showData()
+    }
+
+    private fun showData() {
+        var datos = ""
+
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

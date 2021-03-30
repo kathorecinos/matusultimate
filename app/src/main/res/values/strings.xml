@@ -19,6 +19,13 @@
     <string name="home">home</string>
     <string name="user">user</string>
     <string name="gallery">gallery</string>
+    <string name="Link1">
+        <a href="https://drive.google.com/drive/folders/1mXfc70F8iirm-3C1TFMkldZ2tBBoSiDt?usp=sharing">Link1</a>
+        </string>
+    <string name="Link2">
+        <a href="https://drive.google.com/drive/folders/1i1MAqYT92_gcgOC-Ok0f5pLaWR-0DFIL?usp=sharing">Link2</a>
+    </string>
+    string>
     <string name="mapbox_access_token">pk.eyJ1Ijoia2F0aG9yZWNpbm9zIiwiYSI6ImNrbWUzNmxmNjBua28yeW14a3h0bXMzcGgifQ.xddlU6mtgqMJvISIzlHfOQ</string>
     <string name="lote">Lote</string>
 

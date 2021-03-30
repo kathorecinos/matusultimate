@@ -12,6 +12,7 @@
         android:layout_height="110dp"
         android:layout_marginStart="145dp"
         android:layout_marginTop="215dp"
+        android:layout_marginLeft="145dp"
         android:src="@drawable/cam" />
 
     <TextView
@@ -25,6 +26,7 @@
         android:layout_marginStart="110dp"
         android:layout_marginTop="150dp"
         tools:layout_editor_absoluteX="109dp"
+        android:layout_marginLeft="110dp"
         tools:layout_editor_absoluteY="119dp" />
 
     <ImageView
@@ -35,52 +37,58 @@
         android:layout_marginTop="145dp"
         android:layout_marginEnd="59dp"
         android:layout_marginBottom="185dp"
-        android:src="@drawable/borderwhite"/>
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="59dp"
+        android:src="@drawable/borderwhite" />
 
     <TextView
         android:id="@+id/textNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_marginLeft="170dp"
         android:layout_marginStart="170dp"
         android:layout_marginTop="440dp"
         android:textColor="@color/colorPrimary"
         android:fontFamily="@font/roboto_black"
+        android:text="77777777"
         tools:layout_editor_absoluteY="347dp" />
 
     <TextView
         android:id="@+id/textEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:layout_marginStart="170dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="170dp"
         android:layout_marginTop="410dp"
         android:textColor="@color/colorPrimary"
         android:fontFamily="@font/roboto_black"
+        android:text="cbenitezreyes61@gmail.com"
         tools:layout_editor_absoluteY="378dp" />
 
     <TextView
         android:id="@+id/textImportName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:layout_marginStart="170dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="170dp"
         android:layout_marginTop="380dp"
         android:textColor="@color/colorPrimary"
         android:fontFamily="@font/roboto_black"
         android:layout_marginBottom="150dp"
+        android:text="GRUPO NOVO SA DE CV"
         tools:layout_editor_absoluteY="408dp" />
 
     <TextView
         android:id="@+id/textName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:layout_marginStart="170dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="185dp"
         android:layout_marginTop="350dp"
-        android:textColor="@color/colorPrimary"
         android:fontFamily="@font/roboto_black"
-        tools:layout_editor_absoluteX="172dp"
+        android:text="Carlos Alexis Benitez"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="440dp" />
 
     <Button
@@ -93,6 +101,8 @@
         android:layout_marginBottom="118dp"
         android:text="Actualizar datos"
         android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="115dp"
         android:tint="@color/colorPrimaryDark" />
 
 </FrameLayout>
