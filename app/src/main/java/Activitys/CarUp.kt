@@ -1,7 +1,8 @@
-package com.example.matusintl
+package Activitys
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.matusintl.R
 
 class carUp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
