@@ -28,5 +28,9 @@
     string>
     <string name="mapbox_access_token">pk.eyJ1Ijoia2F0aG9yZWNpbm9zIiwiYSI6ImNrbWUzNmxmNjBua28yeW14a3h0bXMzcGgifQ.xddlU6mtgqMJvISIzlHfOQ</string>
     <string name="lote">Lote</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">TxxlvDcrIOtCJR6MFGPDHx1xkTvbYDTQOYvxpI0s</string>
+    <string name="back4app_client_key">fqOo1ryiY3bIVg8EI5KVueb7gu1nJdIzb0EfcG9V</string>
+
 
 </resources>

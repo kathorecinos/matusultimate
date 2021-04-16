@@ -1,4 +1,4 @@
-package Activitys
+package com.example.matusintl.Activitys
 
 import android.app.Activity
 import android.app.ProgressDialog

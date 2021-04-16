@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="Activitys.dashboardFragment"
+    tools:context="com.example.matusintl.Activitys.dashboardFragment"
     android:background="@drawable/background">
 
     <com.google.android.material.card.MaterialCardView
@@ -15,15 +14,6 @@
         android:background="@color/colorPrimary"
         android:elevation="8dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/circuloUser"
-            android:layout_width="87dp"
-            android:layout_height="82dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="15dp"
-            android:src="@drawable/cam"
-            app:civ_border_color="@color/colorPrimaryDark"
-            app:civ_border_width="5dp" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,32 +24,34 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="nameuser"
-            android:id="@+id/nameuser"
+            android:id="@+id/nameUserImport"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
             android:textAppearance="?attr/textAppearanceHeadline6"
-            />
+            android:text="username" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="importname"
+            android:layout_marginStart="40dp"
             android:id="@+id/importname"
             android:layout_marginTop="50dp"
-            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
             android:textAppearance="?attr/textAppearanceBody2"
             android:textColor="?android:attr/textColorSecondary"
-            />
+            android:text="importNameCorp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
-            android:layout_marginStart="110dp"
+            android:id="@+id/mail2"
             android:text="correo"
-            android:id="@+id/correow"
+            android:layout_marginStart="40dp"
             android:textAppearance="?attr/textAppearanceBody2"
             android:textColor="?android:attr/textColorSecondary"
-            />
+            android:layout_marginLeft="110dp" />
     </com.google.android.material.card.MaterialCardView>
 
 
@@ -87,6 +79,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:text="Notificación Matus"
+            android:layout_marginLeft="20dp"
             android:textAppearance="?attr/textAppearanceHeadline6" />
 
         <TextView
@@ -98,7 +91,9 @@
             android:text="Estimado cliente le comentamos que el cambio de horario de Verano a invierno sera este Domingo 14 de Marzo. En Matus International trabajamos para ti."
             android:textAlignment="viewStart"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"/>
+            android:layout_marginLeft="20dp"
+            android:gravity="start"
+            android:textColor="?android:attr/textColorSecondary" />
 
     </com.google.android.material.card.MaterialCardView>
 

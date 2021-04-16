@@ -1,0 +1,11 @@
+{
+  "MODEL": "A string",
+  "YEAR": 1,
+  "PUERTO": "A string",
+  "MAKE": "A string",
+  "HOY": "A string",
+  "VIN": "A string",
+  "CUSTOMER": "A string",
+  "ALMACEN": "A string",
+  "NUMERO": "A string"
+}

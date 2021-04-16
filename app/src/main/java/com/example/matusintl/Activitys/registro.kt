@@ -1,5 +1,7 @@
-package Activitys
+package com.example.matusintl.Activitys
 
+import android.app.AlertDialog
+import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -7,8 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
 import com.example.matusintl.databinding.ActivityRegistroBinding
-import com.google.firebase.auth.FirebaseAuth
+import com.parse.ParseException
+import com.parse.ParseUser
 import java.util.concurrent.Executor
+
 
 class registro : AppCompatActivity() {
 
@@ -17,7 +21,6 @@ class registro : AppCompatActivity() {
     private lateinit var biometricPrompt: BiometricPrompt
     private lateinit var promptInfo: BiometricPrompt.PromptInfo
 
-    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +30,8 @@ class registro : AppCompatActivity() {
         supportActionBar?.hide()
 
         executor = ContextCompat.getMainExecutor(this)
+
+
 
         biometricPrompt = BiometricPrompt(
             this@registro,
@@ -63,35 +68,62 @@ class registro : AppCompatActivity() {
         }
 
 
-        auth = FirebaseAuth.getInstance()
 
         binding.button1.setOnClickListener {
-           if(binding.mail.text?.trim().toString().isNotEmpty()||binding.password.text?.trim().toString().isNotEmpty()) {
-               signInUser(
-                   binding.mail.text?.trim().toString(),
-                   binding.password.text?.trim().toString()
-               )
-           }else{
-               Toast.makeText(this, "Input required", Toast.LENGTH_LONG).show()
-           }
+            if (binding.mail.text?.trim().toString().isNotEmpty() || binding.password.text?.trim()
+                    .toString().isNotEmpty()
+            ) {
+                loginUser(
+                    binding.mail.text?.trim().toString(),
+                    binding.password.text?.trim().toString()
+                )
+            } else {
+                Toast.makeText(this, "Datos requeridos", Toast.LENGTH_LONG).show()
+            }
         }
+
     }
-    
 
-    fun signInUser(mail:String,password:String){
 
-        auth.signInWithEmailAndPassword(mail,password)
-            .addOnCompleteListener (this) {task ->
+    fun loginUser(mail: String, password: String) {
 
-                if (task.isSuccessful){
-                    val intent = Intent(this, main::class.java)
+        val progressDialog = ProgressDialog(this)
+        val mail = binding.mail.text?.trim().toString()
+        val password = binding.password.text?.trim().toString()
+
+        progressDialog.show()
+        ParseUser.logInInBackground(mail, password) { parseUser: ParseUser?, e: ParseException? ->
+            progressDialog.dismiss()
+            if (parseUser != null) {
+                showAlert(
+                    "Ingreso con éxito",
+                    "Bienvenido, ${ParseUser.getCurrentUser().username}!",
+                    false
+                )
+                startActivity(Intent(this@registro, main::class.java))
+            } else {
+                ParseUser.logOut()
+                showAlert("Ingreso fallido", e?.message + " Vuelva a intentarlo", true)
+            }
+        }
+
+
+    }
+
+    private fun showAlert(title: String, message: String, error: Boolean) {
+        val builder = AlertDialog.Builder(this)
+            .setTitle(title)
+            .setMessage(message)
+            .setPositiveButton("OK") { dialog, which ->
+                dialog.cancel()
+                // don't forget to change the line below with the names of your Activities
+                if (!error) {
+                    val intent = Intent(this@registro, login::class.java)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
                     startActivity(intent)
-                }else{
-                    Toast.makeText(this, "Error!!"+task.exception, Toast.LENGTH_LONG).show()
                 }
             }
-
-
-
+        val ok = builder.create()
+        ok.show()
     }
 }
