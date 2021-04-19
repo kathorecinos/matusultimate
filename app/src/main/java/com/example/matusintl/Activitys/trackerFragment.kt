@@ -11,7 +11,6 @@ import com.example.matusintl.databinding.FragmentTrackerBinding
 import com.google.gson.Gson
 import com.parse.ParseUser
 
-val TAG
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
