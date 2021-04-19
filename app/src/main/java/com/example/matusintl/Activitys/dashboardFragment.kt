@@ -6,8 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.matusintl.databinding.FragmentDashboardBinding
-import com.parse.ParseObject
-import com.parse.ParseQuery
 import com.parse.ParseUser
 
 
@@ -55,16 +53,11 @@ class dashboardFragment : Fragment() {
         binding.nameUserImport.text = user.toString()
         val corrreo = ParseUser.getCurrentUser().email
         binding.mail2.text = corrreo.toString()
-        //val importadora = ParseUser.getCurrentUser().getParseObject("importadora")
-        val query = ParseQuery.getQuery<ParseObject>("User")
-        val importadora = query.binding.importname.text = importadora.toString()
+        val importadora = ParseUser.getCurrentUser().get("Importadora")
+        binding.importname.text = importadora.toString()
 
-        // val parceObject = ParseObject("user").getParseObject("importadora")
-        //if (parceObject != null) {
-        //parceObject.getString()
-        //}
 
-        //binding.importname.text = parceObject.toString()
+
         return view
     }
 

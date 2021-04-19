@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.matusintl.R
 import com.example.matusintl.databinding.ActivityMainBinding
-import com.google.firebase.auth.FirebaseAuth
 import com.parse.ParseUser
 
 
@@ -20,7 +19,6 @@ class main : AppCompatActivity() {
     private val historyFragment = historyFragment()
     private val galleryFragment = galleryFragment()
     private val dashboardFragment = dashboardFragment()
-    private lateinit var mAuth: FirebaseAuth
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

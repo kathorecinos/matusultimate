@@ -6,53 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.matusintl.Activitys.userData">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/circuloUser"
-        android:layout_width="153dp"
-        android:layout_height="135dp"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="54dp"
-        android:layout_marginEnd="134dp"
-        android:src="@drawable/cam"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <Button
-        android:id="@+id/buttonChangeProfilePic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="21dp"
-        android:text="  Elegir Foto"
-        android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintEnd_toStartOf="@+id/buttonChange"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circuloUser" />
-
-    <Button
-        android:id="@+id/buttonChange"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="24dp"
-        android:text="Cambiar Foto"
-        android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toTopOf="@+id/textInputName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/buttonChangeProfilePic"
-        app:layout_constraintTop_toBottomOf="@+id/circuloUser" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputName"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="283dp"
         android:layout_height="60dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
         android:hint="Nombre"
         android:textColorHint="@color/colorPrimaryDark"
         app:boxCornerRadiusBottomEnd="10dp"
@@ -63,17 +21,16 @@
         app:boxStrokeWidth="2dp"
         app:counterOverflowTextColor="@color/colorPrimaryDark"
         app:hintTextColor="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toTopOf="@+id/textInputImportadora"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonChangeProfilePic">
+        tools:layout_editor_absoluteY="258dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputName2"
             android:layout_width="280dp"
             android:layout_height="match_parent"
-            android:inputType="text"
-            android:id="@+id/textInputName2"/>
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -81,7 +38,6 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="280dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="8dp"
         android:hint="Importadora"
         android:textColorHint="@color/colorPrimaryDark"
         app:boxCornerRadiusBottomEnd="10dp"
@@ -92,17 +48,16 @@
         app:boxStrokeWidth="2dp"
         app:counterOverflowTextColor="@color/colorPrimaryDark"
         app:hintTextColor="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toTopOf="@+id/textInputMail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputName">
+        tools:layout_editor_absoluteY="318dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputImportadora2"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:id="@+id/textInputImportadora2"/>
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -110,15 +65,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="153dp"
-        android:layout_marginTop="19dp"
         android:layout_marginEnd="144dp"
         android:layout_marginBottom="116dp"
         android:text="guardar"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputNumber" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -132,7 +85,6 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="280dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="19dp"
         android:hint="Correo"
         android:textColorHint="@color/colorPrimaryDark"
         app:boxCornerRadiusBottomEnd="10dp"
@@ -143,46 +95,16 @@
         app:boxStrokeWidth="2dp"
         app:counterOverflowTextColor="@color/colorPrimaryDark"
         app:hintTextColor="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toTopOf="@+id/textInputNumber"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputImportadora">
+        tools:layout_editor_absoluteY="386dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputMail2"
             android:layout_width="280dp"
             android:layout_height="55dp"
-            android:inputType="textEmailAddress"
-            android:id="@+id/textInputMail2"/>
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputNumber"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="280dp"
-        android:layout_height="60dp"
-        android:hint="Telefono"
-        android:textColorHint="@color/colorPrimaryDark"
-        app:boxCornerRadiusBottomEnd="10dp"
-        app:boxCornerRadiusBottomStart="10dp"
-        app:boxCornerRadiusTopEnd="10dp"
-        app:boxCornerRadiusTopStart="10dp"
-        app:boxStrokeColor="@color/colorPrimaryDark"
-        app:boxStrokeWidth="2dp"
-        app:counterOverflowTextColor="@color/colorPrimaryDark"
-        app:hintTextColor="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toTopOf="@+id/buttonSave"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputMail"
-        tools:ignore="MissingConstraints">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:id="@+id/textInputNumber2"/>
+            android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
