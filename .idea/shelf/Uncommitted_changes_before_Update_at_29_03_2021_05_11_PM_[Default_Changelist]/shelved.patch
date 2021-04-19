@@ -1,0 +1,1100 @@
+Index: app/src/main/res/layout/fragment_user.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<FrameLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\"Activitys.UserFragment\"\r\n    android:background=\"@drawable/backgroundd\">\r\n\r\n    <de.hdodenhof.circleimageview.CircleImageView\r\n        android:id=\"@+id/circuloUser\"\r\n        android:layout_width=\"110dp\"\r\n        android:layout_height=\"110dp\"\r\n        android:layout_marginStart=\"145dp\"\r\n        android:layout_marginTop=\"215dp\"\r\n        android:src=\"@drawable/cam\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView2\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:fontFamily=\"@font/roboto_black\"\r\n        android:text=\"Datos de Usuario\"\r\n        android:textColor=\"@color/colorPrimary\"\r\n        android:textSize=\"25dp\"\r\n        android:layout_marginStart=\"110dp\"\r\n        android:layout_marginTop=\"150dp\"\r\n        tools:layout_editor_absoluteX=\"109dp\"\r\n        tools:layout_editor_absoluteY=\"119dp\" />\r\n\r\n    <ImageView\r\n        android:id=\"@+id/imageView3\"\r\n        android:layout_width=\"294dp\"\r\n        android:layout_height=\"455dp\"\r\n        android:layout_marginStart=\"58dp\"\r\n        android:layout_marginTop=\"145dp\"\r\n        android:layout_marginEnd=\"59dp\"\r\n        android:layout_marginBottom=\"185dp\"\r\n        android:src=\"@drawable/borderwhite\"/>\r\n\r\n    <TextView\r\n        android:id=\"@+id/textNumber\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"TextView\"\r\n        android:layout_marginStart=\"170dp\"\r\n        android:layout_marginTop=\"440dp\"\r\n        android:textColor=\"@color/colorPrimary\"\r\n        android:fontFamily=\"@font/roboto_black\"\r\n        tools:layout_editor_absoluteY=\"347dp\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textEmail\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"TextView\"\r\n        android:layout_marginStart=\"170dp\"\r\n        android:layout_marginTop=\"410dp\"\r\n        android:textColor=\"@color/colorPrimary\"\r\n        android:fontFamily=\"@font/roboto_black\"\r\n        tools:layout_editor_absoluteY=\"378dp\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textImportName\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"TextView\"\r\n        android:layout_marginStart=\"170dp\"\r\n        android:layout_marginTop=\"380dp\"\r\n        android:textColor=\"@color/colorPrimary\"\r\n        android:fontFamily=\"@font/roboto_black\"\r\n        android:layout_marginBottom=\"150dp\"\r\n        tools:layout_editor_absoluteY=\"408dp\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textName\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"TextView\"\r\n        android:layout_marginStart=\"170dp\"\r\n        android:layout_marginTop=\"350dp\"\r\n        android:textColor=\"@color/colorPrimary\"\r\n        android:fontFamily=\"@font/roboto_black\"\r\n        tools:layout_editor_absoluteX=\"172dp\"\r\n        tools:layout_editor_absoluteY=\"440dp\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/buttonReloadData\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"125dp\"\r\n        android:layout_marginTop=\"500dp\"\r\n        android:layout_marginEnd=\"115dp\"\r\n        android:layout_marginBottom=\"118dp\"\r\n        android:text=\"Actualizar datos\"\r\n        android:textColor=\"@color/colorPrimaryDark\"\r\n        android:tint=\"@color/colorPrimaryDark\" />\r\n\r\n</FrameLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_user.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/res/layout/fragment_user.xml	(date 1617048178267)
+@@ -12,7 +12,8 @@
+         android:layout_height="110dp"
+         android:layout_marginStart="145dp"
+         android:layout_marginTop="215dp"
+-        android:src="@drawable/cam" />
++        android:src="@drawable/cam"
++        android:layout_marginLeft="145dp" />
+ 
+     <TextView
+         android:id="@+id/textView2"
+@@ -25,7 +26,8 @@
+         android:layout_marginStart="110dp"
+         android:layout_marginTop="150dp"
+         tools:layout_editor_absoluteX="109dp"
+-        tools:layout_editor_absoluteY="119dp" />
++        tools:layout_editor_absoluteY="119dp"
++        android:layout_marginLeft="110dp" />
+ 
+     <ImageView
+         android:id="@+id/imageView3"
+@@ -35,52 +37,58 @@
+         android:layout_marginTop="145dp"
+         android:layout_marginEnd="59dp"
+         android:layout_marginBottom="185dp"
+-        android:src="@drawable/borderwhite"/>
++        android:src="@drawable/borderwhite"
++        android:layout_marginLeft="58dp"
++        android:layout_marginRight="59dp" />
+ 
+     <TextView
+         android:id="@+id/textNumber"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:text="TextView"
++        android:text="77777777"
+         android:layout_marginStart="170dp"
+         android:layout_marginTop="440dp"
+         android:textColor="@color/colorPrimary"
+         android:fontFamily="@font/roboto_black"
+-        tools:layout_editor_absoluteY="347dp" />
++        tools:layout_editor_absoluteY="347dp"
++        android:layout_marginLeft="170dp" />
+ 
+     <TextView
+         android:id="@+id/textEmail"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:text="TextView"
+-        android:layout_marginStart="170dp"
++        android:text="cbenitezreyes61@gmail.com"
++        android:layout_marginStart="100dp"
+         android:layout_marginTop="410dp"
+         android:textColor="@color/colorPrimary"
+         android:fontFamily="@font/roboto_black"
+-        tools:layout_editor_absoluteY="378dp" />
++        tools:layout_editor_absoluteY="378dp"
++        android:layout_marginLeft="170dp" />
+ 
+     <TextView
+         android:id="@+id/textImportName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:text="TextView"
+-        android:layout_marginStart="170dp"
++        android:text="GRUPO NOVO SA DE CV"
++        android:layout_marginStart="115dp"
+         android:layout_marginTop="380dp"
+         android:textColor="@color/colorPrimary"
+         android:fontFamily="@font/roboto_black"
+         android:layout_marginBottom="150dp"
+-        tools:layout_editor_absoluteY="408dp" />
++        tools:layout_editor_absoluteY="408dp"
++        android:layout_marginLeft="170dp" />
+ 
+     <TextView
+         android:id="@+id/textName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:text="TextView"
+-        android:layout_marginStart="170dp"
++        android:layout_marginStart="125dp"
++        android:layout_marginLeft="185dp"
+         android:layout_marginTop="350dp"
++        android:fontFamily="@font/roboto_black"
++        android:text="Carlos Alexis Benitez"
+         android:textColor="@color/colorPrimary"
+-        android:fontFamily="@font/roboto_black"
+-        tools:layout_editor_absoluteX="172dp"
++        tools:layout_editor_absoluteX="150dp"
+         tools:layout_editor_absoluteY="440dp" />
+ 
+     <Button
+@@ -93,6 +101,8 @@
+         android:layout_marginBottom="118dp"
+         android:text="Actualizar datos"
+         android:textColor="@color/colorPrimaryDark"
+-        android:tint="@color/colorPrimaryDark" />
++        android:tint="@color/colorPrimaryDark"
++        android:layout_marginLeft="125dp"
++        android:layout_marginRight="115dp" />
+ 
+ </FrameLayout>
+\ No newline at end of file
+Index: app/src/main/java/Activitys/Find.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Activitys\r\n\r\nimport android.os.Bundle\r\nimport android.util.Log\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport com.example.matusintl.R\r\nimport com.google.android.gms.maps.CameraUpdateFactory\r\nimport com.google.android.gms.maps.GoogleMap\r\nimport com.google.android.gms.maps.OnMapReadyCallback\r\nimport com.google.android.gms.maps.SupportMapFragment\r\nimport com.google.android.gms.maps.model.*\r\n\r\n\r\nclass Find : AppCompatActivity(), OnMapReadyCallback {\r\n\r\n    private lateinit var map: GoogleMap\r\n\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        setContentView(R.layout.activity_find)\r\n        createFragment()\r\n    }\r\n\r\n    private fun createFragment() {\r\n        val mapFragment: SupportMapFragment =\r\n            supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment\r\n        mapFragment.getMapAsync(this)\r\n    }\r\n\r\n    override fun onMapReady(googleMap: GoogleMap) {\r\n        map = googleMap\r\n        try {\r\n            val isAdded =\r\n                googleMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(this, R.raw.mapstyle))\r\n\r\n            Log.e(\"MAPS ACTIVITY\", \"IS THE MAP ADDED ? $isAdded\")\r\n        } catch (e: Exception) {\r\n            e.printStackTrace()\r\n        }\r\n        val polyline1 = googleMap.addPolyline(\r\n            PolylineOptions()\r\n                .clickable(true)\r\n                .color(R.color.colorPrimaryDark)\r\n                .endCap(RoundCap())\r\n                .add(\r\n                    LatLng(33.78050382614036, -118.20337330596534),\r\n                    LatLng(33.7551475743488, -118.21632928555647),\r\n                    LatLng(11.970694, -106.771554),\r\n                    LatLng(13.7835293470295, -89.20225766001776)\r\n                )\r\n        )\r\n\r\n\r\n\r\n        createMarkerElSalvadorCaliRansa()\r\n        createMarkerElSalvadorCaliNe()\r\n        createMarkerElSalvadorCaliSanBar()\r\n        createMarkerElSalvadorCaliTrans()\r\n        createMarkerElSalvadorFloRansa()\r\n        createMarkerElSalvadorFloNe()\r\n        createMarkerElSalvadorFloSanBar()\r\n        createMarkerElSalvadorFloTrans()\r\n        createMarkerGuatemalaCaliCoalsa()\r\n        createMarkerGuatemalaCaliCentralsa()\r\n        createMarkerGuatemalaCaliStoTomas()\r\n        createMarkerGuatemalaCaliPtoBar()\r\n        createMarkerGuatemalaFloCoalsa()\r\n        createMarkerGuatemalaFloCentralsa()\r\n        createMarkerGuatemalaFloStoTomas()\r\n        createMarkerGuatemalaFloPtoBar()\r\n        createMarkerCostaRicaCaliCoco()\r\n        createMarkerCostaRicaCaliAlFis()\r\n        createMarkerCostaRicaFloCoco()\r\n        createMarkerCostaRicaFloAlfis()\r\n        createMarkerHondurasCaliVolt()\r\n        createMarkerHondurasFlorVolt()\r\n    }\r\n\r\n    private fun createMarkerElSalvadorCaliRansa() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates3 = LatLng(13.7835293470295, -89.20225766001776)\r\n        val marker3: MarkerOptions =\r\n            MarkerOptions().position(coordinates3).title(\"Almacenadora Ransa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker3)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerElSalvadorCaliNe() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates4 = LatLng(13.805556241227952, -89.23669697650517)\r\n        val marker4: MarkerOptions =\r\n            MarkerOptions().position(coordinates4).title(\"Almacenadora Nejapa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker4)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerElSalvadorCaliSanBar() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates5 = LatLng(13.705099451272222, -89.10084345817191)\r\n        val marker5: MarkerOptions =\r\n            MarkerOptions().position(coordinates5).title(\"Almacenadora San Bartolo\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker5)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerElSalvadorCaliTrans() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates6 = LatLng(13.676110958826975, -89.20657941584241)\r\n        val marker6: MarkerOptions =\r\n            MarkerOptions().position(coordinates6).title(\"Almacenadora Transauto\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker6)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n        //Florida//El Salvador//\r\n    }\r\n\r\n    private fun createMarkerElSalvadorFloRansa() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates3 = LatLng(13.7835293470295, -89.20225766001776)\r\n        val marker3: MarkerOptions =\r\n            MarkerOptions().position(coordinates3).title(\"Almacenadora Ransa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker3)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerElSalvadorFloNe() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates4 = LatLng(13.805556241227952, -89.23669697650517)\r\n        val marker4: MarkerOptions =\r\n            MarkerOptions().position(coordinates4).title(\"Almacenadora Nejapa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker4)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerElSalvadorFloSanBar() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates5 = LatLng(13.705099451272222, -89.10084345817191)\r\n        val marker5: MarkerOptions =\r\n            MarkerOptions().position(coordinates5).title(\"Almacenadora San Bartolo\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker5)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerElSalvadorFloTrans() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates6 = LatLng(13.676110958826975, -89.20657941584241)\r\n        val marker6: MarkerOptions =\r\n            MarkerOptions().position(coordinates6).title(\"Almacenadora Transauto\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker6)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\r\n    //California//Guatemala//\r\n    private fun createMarkerGuatemalaCaliCoalsa() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates9 = LatLng(14.575247346123108, -90.54153058685938)\r\n        val marker9: MarkerOptions =\r\n            MarkerOptions().position(coordinates9).title(\"Almacenadora Coalsa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker9)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerGuatemalaCaliCentralsa() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates10 = LatLng(14.580764072607524, -90.54232151569565)\r\n        val marker10: MarkerOptions =\r\n            MarkerOptions().position(coordinates10).title(\"Almacenadora Centralsa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker10)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerGuatemalaCaliStoTomas() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates11 = LatLng(15.694476370375993, -88.62075035916287)\r\n        val marker11: MarkerOptions =\r\n            MarkerOptions().position(coordinates11).title(\"Almacenadora Santo Tomas\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker11)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerGuatemalaCaliPtoBar() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates12 = LatLng(15.735773589990226, -88.60487846779328)\r\n        val marker12: MarkerOptions =\r\n            MarkerOptions().position(coordinates12).title(\"Almacenadora Puerto Barrios\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker12)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    ///Florida//Guatemala//\r\n    private fun createMarkerGuatemalaFloCoalsa() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates9 = LatLng(14.575247346123108, -90.54153058685938)\r\n        val marker9: MarkerOptions =\r\n            MarkerOptions().position(coordinates9).title(\"Almacenadora Coalsa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker9)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerGuatemalaFloCentralsa() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates10 = LatLng(14.580764072607524, -90.54232151569565)\r\n        val marker10: MarkerOptions =\r\n            MarkerOptions().position(coordinates10).title(\"Almacenadora Centralsa\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker10)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerGuatemalaFloStoTomas() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates11 = LatLng(15.694476370375993, -88.62075035916287)\r\n        val marker11: MarkerOptions =\r\n            MarkerOptions().position(coordinates11).title(\"Almacenadora Santo Tomas\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker11)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerGuatemalaFloPtoBar() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates12 = LatLng(15.735773589990226, -88.60487846779328)\r\n        val marker12: MarkerOptions =\r\n            MarkerOptions().position(coordinates12).title(\"Almacenadora Puerto Barrios\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker12)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\r\n    //California//Costa Rica/////////\r\n    private fun createMarkerCostaRicaCaliCoco() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates13 = LatLng(9.986359315240188, -84.22312681525891)\r\n        val marker13: MarkerOptions =\r\n            MarkerOptions().position(coordinates13).title(\"Almacenadora El Coco\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker13)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerCostaRicaCaliAlFis() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates14 = LatLng(10.002740770986705, -84.1614552729314)\r\n        val marker14: MarkerOptions =\r\n            MarkerOptions().position(coordinates14).title(\"Almacen Fiscal Neutral\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker14)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    //Florida//Costa Rica/////////////////////\r\n    private fun createMarkerCostaRicaFloCoco() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates13 = LatLng(9.986359315240188, -84.22312681525891)\r\n        val marker13: MarkerOptions =\r\n            MarkerOptions().position(coordinates13).title(\"Almacenadora El Coco\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker13)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    private fun createMarkerCostaRicaFloAlfis() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates14 = LatLng(10.002740770986705, -84.1614552729314)\r\n        val marker14: MarkerOptions =\r\n            MarkerOptions().position(coordinates14).title(\"Almacenadora Fiscal Neutral\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker14)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\r\n    //California//Honduras\r\n    private fun createMarkerHondurasCaliVolt() {\r\n        val coordinates = LatLng(33.78050382614036, -118.20337330596534)\r\n        val marker: MarkerOptions =\r\n            MarkerOptions().position(coordinates).title(\"Bodegas Matus California\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates2 = LatLng(33.7551475743488, -118.21632928555647)\r\n        val marker2: MarkerOptions =\r\n            MarkerOptions().position(coordinates2).title(\"Puerto Long Beach\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates15 = LatLng(15.75749620992369, -87.49485221552523)\r\n        val marker15: MarkerOptions =\r\n            MarkerOptions().position(coordinates15).title(\"Deposito Temporal Votainer\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker)\r\n        map.addMarker(marker2)\r\n        map.addMarker(marker15)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n    //Florida//Honduras\r\n    private fun createMarkerHondurasFlorVolt() {\r\n        val coordinates7 = LatLng(25.8707306238467, -80.36840935971841)\r\n        val marker7: MarkerOptions =\r\n            MarkerOptions().position(coordinates7).title(\"Bodegas Matus Florida\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        val coordinates8 = LatLng(26.122879315343337, -80.10738317364529)\r\n        val marker8: MarkerOptions =\r\n            MarkerOptions().position(coordinates8).title(\"Puerto Everglade\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconship))\r\n        val coordinates15 = LatLng(13.676110958826975, -89.20657941584241)\r\n        val marker15: MarkerOptions =\r\n            MarkerOptions().position(coordinates15).title(\"Deposito Temporal\")\r\n                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconcrane))\r\n        map.addMarker(marker7)\r\n        map.addMarker(marker8)\r\n        map.addMarker(marker15)\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates7, 18f),\r\n            4000,\r\n            null\r\n        )\r\n    }\r\n\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/Activitys/Find.kt	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/java/Activitys/Find.kt	(date 1617059316896)
+@@ -44,15 +44,14 @@
+                 .color(R.color.colorPrimaryDark)
+                 .endCap(RoundCap())
+                 .add(
+-                    LatLng(33.78050382614036, -118.20337330596534),
+-                    LatLng(33.7551475743488, -118.21632928555647),
+-                    LatLng(11.970694, -106.771554),
++                    LatLng(25.8707306238467, -80.36840935971841),
++                    LatLng(26.122879315343337, -80.10738317364529),
++                    LatLng( 22.774482, -85.439154),
++                    LatLng(15.694476370375993, -88.62075035916287),
+                     LatLng(13.7835293470295, -89.20225766001776)
++
+                 )
+         )
+-
+-
+-
+         createMarkerElSalvadorCaliRansa()
+         createMarkerElSalvadorCaliNe()
+         createMarkerElSalvadorCaliSanBar()
+@@ -75,6 +74,7 @@
+         createMarkerCostaRicaFloAlfis()
+         createMarkerHondurasCaliVolt()
+         createMarkerHondurasFlorVolt()
++
+     }
+ 
+     private fun createMarkerElSalvadorCaliRansa() {
+Index: app/src/main/java/Activitys/UserFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Activitys\r\n\r\nimport android.content.Intent\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport androidx.fragment.app.Fragment\r\nimport com.example.matusintl.databinding.FragmentUserBinding\r\nimport com.google.firebase.auth.FirebaseAuth\r\nimport com.google.firebase.firestore.FirebaseFirestore\r\nimport model.User\r\n\r\n\r\n// TODO: Rename parameter arguments, choose names that match\r\n// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER\r\nprivate const val ARG_PARAM1 = \"param1\"\r\nprivate const val ARG_PARAM2 = \"param2\"\r\n\r\n/**\r\n * A simple [Fragment] subclass.\r\n * Use the [UserFragment.newInstance] factory method to\r\n * create an instance of this fragment.\r\n */\r\nclass UserFragment : Fragment() {\r\n\r\n    // TODO: Rename and change types of parameters\r\n    private var param1: String? = null\r\n    private var param2: String? = null\r\n    private lateinit var mUser: User\r\n    private lateinit var mAuth: FirebaseAuth\r\n\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        arguments?.let {\r\n            param1 = it.getString(ARG_PARAM1)\r\n            param2 = it.getString(ARG_PARAM2)\r\n        }\r\n    }\r\n\r\n    private var _binding: FragmentUserBinding? = null\r\n    private val binding get() = _binding!!\r\n    val db = FirebaseFirestore.getInstance()\r\n\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        _binding = FragmentUserBinding.inflate(inflater, container, false)\r\n        val view = binding.root\r\n        return view\r\n    }\r\n\r\n    override fun onActivityCreated(savedInstanceState: Bundle?) {\r\n        super.onActivityCreated(savedInstanceState)\r\n        binding.buttonReloadData.setOnClickListener {\r\n            activity?.let {\r\n                val intent = Intent(it, userData::class.java)\r\n                it.startActivity(intent)\r\n            }\r\n        }\r\n        return\r\n    }\r\n\r\n    override fun onDestroyView() {\r\n        super.onDestroyView()\r\n        _binding = null\r\n    }\r\n\r\n\r\n    companion object {\r\n        /**\r\n         * Use this factory method to create a new instance of\r\n         * this fragment using the provided parameters.\r\n         *\r\n         * @param param1 Parameter 1.\r\n         * @param param2 Parameter 2.\r\n         * @return A new instance of fragment UserFragment.\r\n         */\r\n        // TODO: Rename and change types and number of parameters\r\n        @JvmStatic\r\n        fun newInstance(param1: String, param2: String) =\r\n            UserFragment().apply {\r\n                arguments = Bundle().apply {\r\n                    putString(ARG_PARAM1, param1)\r\n                    putString(ARG_PARAM2, param2)\r\n                }\r\n            }\r\n\r\n                }\r\n        }\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/Activitys/UserFragment.kt	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/java/Activitys/UserFragment.kt	(date 1617043742727)
+@@ -1,11 +1,14 @@
+ package Activitys
+ 
++import android.app.AlertDialog
+ import android.content.Intent
+ import android.os.Bundle
+ import android.view.LayoutInflater
+ import android.view.View
+ import android.view.ViewGroup
++import android.widget.FrameLayout
+ import androidx.fragment.app.Fragment
++import androidx.lifecycle.livedata.R
+ import com.example.matusintl.databinding.FragmentUserBinding
+ import com.google.firebase.auth.FirebaseAuth
+ import com.google.firebase.firestore.FirebaseFirestore
+@@ -44,6 +47,9 @@
+     val db = FirebaseFirestore.getInstance()
+ 
+ 
++
++
++
+     override fun onCreateView(
+         inflater: LayoutInflater,
+         container: ViewGroup?,
+@@ -52,6 +58,11 @@
+         _binding = FragmentUserBinding.inflate(inflater, container, false)
+         val view = binding.root
+         return view
++        showData()
++    }
++    private fun showData() {
++        var datos = ""
++
+     }
+ 
+     override fun onActivityCreated(savedInstanceState: Bundle?) {
+Index: app/src/main/res/layout/activity_pop_up_car.xml
+===================================================================
+--- app/src/main/res/layout/activity_pop_up_car.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/res/layout/activity_pop_up_car.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
+@@ -1,91 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="350dp"
+-    android:layout_height="350dp"
+-    android:layout_gravity="center"
+-    android:background="@drawable/border_button"
+-    android:orientation="vertical"
+-    android:padding="5dp"
+-    tools:context=".PopUpCar">
+-
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:fontFamily="@font/poppins"
+-        android:gravity="center_horizontal"
+-        android:text="VIN"
+-        android:textAlignment="center"
+-        android:textColor="@color/colorGray"
+-        android:textSize="30dp" />
+-
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:drawableStart="@drawable/ic_baseline_directions_car_242"
+-        android:drawableLeft="@drawable/ic_baseline_directions_car_242"
+-        android:fontFamily="@font/poppins"
+-        android:gravity="center_horizontal"
+-        android:text="Vehículo"
+-        android:textAlignment="center"
+-        android:textColor="@color/colorGray"
+-        android:textSize="20dp" />
+-
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
+-        android:fontFamily="@font/poppins"
+-        android:gravity="center_horizontal"
+-        android:text="Cliente"
+-        android:textAlignment="center"
+-        android:textColor="@color/colorGray"
+-        android:textSize="20dp" />
+-
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:drawableLeft="@drawable/ic_baseline_location_on_242"
+-        android:fontFamily="@font/poppins"
+-        android:gravity="center_horizontal"
+-        android:text="Estatus"
+-        android:textAlignment="center"
+-        android:textColor="@color/colorGray"
+-        android:textSize="20dp" />
+-
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:drawableLeft="@drawable/ic_baseline_directions_boat_242"
+-        android:fontFamily="@font/poppins"
+-        android:gravity="center_horizontal"
+-        android:text="Puerto"
+-        android:textAlignment="center"
+-        android:textColor="@color/colorGray"
+-        android:textSize="20dp" />
+-
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+-        android:fontFamily="@font/poppins"
+-        android:gravity="center_horizontal"
+-        android:text="Costos"
+-        android:textAlignment="center"
+-        android:textColor="@color/colorGray"
+-        android:textSize="20dp" />
+-
+-    <Button
+-        android:id="@+id/mapButton"
+-        style="@style/Widget.MaterialComponents.Button.TextButton"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="15dp"
+-        android:background="@drawable/border_text"
+-        android:text="Track"
+-        android:textColor="@color/colorPrimary"
+-        app:backgroundTint="@color/colorPrimaryDark" />
+-
+-
+-</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/matusintl/PopUpCar.kt
+===================================================================
+--- app/src/main/java/com/example/matusintl/PopUpCar.kt	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/java/com/example/matusintl/PopUpCar.kt	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
+@@ -1,27 +0,0 @@
+-package com.example.matusintl
+-
+-import Activitys.Find
+-import android.content.Intent
+-import android.os.Bundle
+-import androidx.appcompat.app.AppCompatActivity
+-import com.example.matusintl.databinding.ActivityPopUpCarBinding
+-
+-private lateinit var binding: ActivityPopUpCarBinding
+-
+-class PopUpCar : AppCompatActivity() {
+-    override fun onCreate(savedInstanceState: Bundle?) {
+-        super.onCreate(savedInstanceState)
+-        binding = ActivityPopUpCarBinding.inflate(layoutInflater)
+-        val view = binding.root
+-        setContentView(view)
+-
+-
+-        binding.mapButton.setOnClickListener {
+-            val intent = Intent(this, Find::class.java)
+-            startActivity(intent)
+-        }
+-
+-    }
+-
+-
+-}
+\ No newline at end of file
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    package=\"com.example.matusintl\">\r\n\r\n    <uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />\r\n    <uses-permission android:name=\"android.permission.USE_BIOMETRIC\" />\r\n    <uses-permission android:name=\"android.permission.INTERNET\" />\r\n    <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\r\n    <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\r\n    <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:fullBackupContent=\"true\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/AppTheme\">\r\n        <activity android:name=\".PopUpCar\"></activity>\r\n        <activity android:name=\"Activitys.Find\" />\r\n        <activity android:name=\"Activitys.Out\" />\r\n        <activity android:name=\"Activitys.dataSendActivity\" />\r\n        <activity android:name=\"Activitys.carActivity\" />\r\n        <activity android:name=\"Activitys.main\" />\r\n        <activity android:name=\"Activitys.login\" />\r\n        <activity android:name=\"Activitys.userData\" />\r\n        <activity\r\n            android:name=\"Activitys.Splash\"\r\n            android:label=\"splash\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n        <activity\r\n            android:name=\"Activitys.registro\"\r\n            android:label=\"registro\" />\r\n\r\n        <meta-data\r\n            android:name=\"com.google.android.geo.API_KEY\"\r\n            android:value=\"@string/google_maps_key\" />\r\n        <meta-data\r\n            android:name=\"preloaded_fonts\"\r\n            android:resource=\"@array/preloaded_fonts\" />\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/AndroidManifest.xml	(date 1617046256471)
+@@ -17,17 +17,17 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/AppTheme">
+-        <activity android:name=".PopUpCar"></activity>
++        <activity android:name="Activitys.carUp"></activity>
++        <activity android:name=".PopUpCar" />
+         <activity android:name="Activitys.Find" />
+         <activity android:name="Activitys.Out" />
+         <activity android:name="Activitys.dataSendActivity" />
+-        <activity android:name="Activitys.carActivity" />
+         <activity android:name="Activitys.main" />
+         <activity android:name="Activitys.login" />
+         <activity android:name="Activitys.userData" />
+         <activity
+             android:name="Activitys.Splash"
+-            android:label="splash">
++            android:label="MatusApp">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+ 
+Index: app/src/main/res/layout/fragment_history.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<FrameLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\"Activitys.historyFragment\"\r\n    android:background=\"@drawable/backagr\">\r\n\r\n    <!-- TODO: Update blank fragment layout -->\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        android:text=\"history\" />\r\n\r\n</FrameLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_history.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/res/layout/fragment_history.xml	(date 1617033255988)
+@@ -1,15 +1,142 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+-    android:layout_height="match_parent"
++    android:layout_height="wrap_content"
+     tools:context="Activitys.historyFragment"
+     android:background="@drawable/backagr">
+ 
+-    <!-- TODO: Update blank fragment layout -->
++    <TextView
++        android:id="@+id/textView8"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="80dp"
++        android:layout_marginBottom="648dp"
++        android:fontFamily="@font/poppins"
++        android:gravity="center"
++        android:text="Historial de vehículos"
++        android:textColor="@color/colorPrimary"
++        android:textSize="30dp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
+     <TextView
++        android:layout_width="300dp"
++
++        android:layout_height="wrap_content"
++        android:layout_marginStart="46dp"
++        android:layout_marginLeft="46dp"
++        android:layout_marginTop="56dp"
++        android:layout_marginEnd="47dp"
++        android:layout_marginRight="47dp"
++        android:layout_marginBottom="83dp"
++        android:fontFamily="@font/roboto_medium"
++        android:gravity="center"
++        android:text="Estimado cliente, en esta tabla encontrara las fotografías de los vehículos que han llegado a bodega para su revisión, tambien puede verlas en los correos de notificación que enviamos a su correo."
++        android:textColor="@color/colorPrimary"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView8" />
++
++    <androidx.appcompat.widget.LinearLayoutCompat
++        android:id="@+id/linearLayoutCompat"
+         android:layout_width="match_parent"
+-        android:layout_height="match_parent"
+-        android:text="history" />
++        android:layout_height="wrap_content"
++        android:layout_marginTop="1dp"
++        android:layout_marginBottom="84dp"
++        android:orientation="vertical"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent">
++
++    <TableLayout
++        android:id="@+id/tableLayout"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginHorizontal="10dp"
++        android:layout_marginVertical="310dp"
++        android:layout_marginStart="32dp"
++        android:layout_marginLeft="32dp"
++        android:layout_marginTop="32dp"
++        android:layout_marginEnd="32dp"
++        android:layout_marginRight="32dp"
++        android:layout_marginBottom="417dp"
++        android:background="@color/colorPrimary"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent">
++
++        <TableRow>
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:fontFamily="@font/roboto_black"
++                android:gravity="center"
++                android:text="VIN" />
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:fontFamily="@font/roboto_black"
++                android:gravity="center"
++                android:text="Vehículo" />
++
++        </TableRow>
++
++        <TableRow>
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:fontFamily="@font/roboto_black"
++                android:gravity="center"
++                android:text="KNADM4A31G6587707" />
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:fontFamily="@font/roboto_black"
++                android:gravity="center"
++                android:text="KIA RIO 2016" />
++
++        </TableRow>
++
++        <TableRow>
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:fontFamily="@font/roboto_black"
++                android:gravity="center"
++                android:text="3KPFL4A71HE109879" />
++
++            <TextView
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:fontFamily="@font/roboto_black"
++                android:gravity="center"
++                android:text="KIA FORTE 2017" />
++
++        </TableRow>
++
++
++    </TableLayout>
++    </androidx.appcompat.widget.LinearLayoutCompat>
++
++
++
++
+ 
+-</FrameLayout>
+\ No newline at end of file
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_gallery.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<FrameLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\"Activitys.galleryFragment\">\r\n\r\n    <!-- TODO: Update blank fragment layout -->\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        android:text=\"@string/hello_blank_fragment\" />\r\n\r\n</FrameLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_gallery.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/res/layout/fragment_gallery.xml	(date 1617035376979)
+@@ -1,14 +1,197 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context="Activitys.galleryFragment">
+ 
+-    <!-- TODO: Update blank fragment layout -->
+     <TextView
++        android:id="@+id/textView7"
+         android:layout_width="match_parent"
+-        android:layout_height="match_parent"
+-        android:text="@string/hello_blank_fragment" />
++        android:layout_height="wrap_content"
++        android:layout_marginTop="70dp"
++        android:layout_marginBottom="608dp"
++        android:fontFamily="@font/poppins"
++        android:gravity="center"
++        android:text="Galeria"
++        android:textColor="@color/colorPrimaryDark"
++        android:textSize="30sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:layout_width="300dp"
++
++        android:layout_height="wrap_content"
++        android:layout_marginTop="43dp"
++        android:fontFamily="@font/roboto_medium"
++        android:gravity="center"
++        android:text="Estimado cliente, en esta tabla encontrara las fotografías de los vehículos que han llegado a bodega para su revisión, tambien puede verlas en los correos de notificación que enviamos a su correo."
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView7" />
++
++    <androidx.appcompat.widget.LinearLayoutCompat
++        android:id="@+id/linearLayoutCompat"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="1dp"
++        android:layout_marginBottom="84dp"
++        android:orientation="vertical"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent">
++
++        <TableLayout
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_marginHorizontal="10dp"
++            android:layout_marginVertical="310dp"
++            android:background="@color/mediumGray">
++
++            <TableRow>
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="VIN" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="Vehículo" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="Link" />
++            </TableRow>
++
++            <TableRow>
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="KNADM4A31G6587707" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="KIA RIO 2016" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:linksClickable="true"
++                    android:text="@string/Link1"
++                    android:autoLink="all"
++                    android:id="@+id/Link1"
++                    android:textColorLink="@color/colorPrimaryDark" />
++            </TableRow>
++
++            <TableRow>
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="3KPFL4A71HE109879" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="KIA FORTE 2017" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:linksClickable="true"
++                    android:text="@string/Link2"
++                    android:id="@+id/Link2"
++                    android:autoLink="all"
++                    android:textColorLink="@color/colorPrimaryDark" />
++            </TableRow>
++
++            <TableRow>
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="KNADM4A31G6587707" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:text="KIA RIO 2016" />
++
++                <TextView
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_marginBottom="1dp"
++                    android:layout_weight="1"
++                    android:background="@color/colorPrimary"
++                    android:fontFamily="@font/roboto_black"
++                    android:gravity="center"
++                    android:linksClickable="true"
++                    android:text="Link3"
++                    android:textColorLink="@color/colorPrimaryDark" />
++            </TableRow>
++
++        </TableLayout>
++
++    </androidx.appcompat.widget.LinearLayoutCompat>
++
+ 
+-</FrameLayout>
+\ No newline at end of file
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_car_up.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_car_up.xml	(date 1617047823960)
++++ app/src/main/res/layout/activity_car_up.xml	(date 1617047823960)
+@@ -0,0 +1,142 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context="Activitys.carUp">
++
++    <TextView
++        android:id="@+id/textView14"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="180dp"
++        android:fontFamily="@font/poppins"
++        android:gravity="center_horizontal"
++        android:text="1C6RR6FG9ES223208"
++        android:textAlignment="center"
++        android:textColor="@color/colorGray"
++        android:textSize="30dp"
++        app:layout_constraintTop_toTopOf="parent"
++        tools:layout_editor_absoluteX="0dp" />
++
++    <TextView
++        android:id="@+id/textView15"
++        android:layout_width="317dp"
++        android:layout_height="39dp"
++        android:layout_marginStart="38dp"
++        android:layout_marginLeft="38dp"
++        android:layout_marginTop="19dp"
++        android:layout_marginEnd="38dp"
++        android:layout_marginRight="38dp"
++        android:drawableStart="@drawable/ic_baseline_directions_car_242"
++        android:drawableLeft="@drawable/ic_baseline_directions_car_242"
++        android:fontFamily="@font/poppins"
++        android:gravity="center_horizontal"
++        android:text="RAM 1500 2014"
++        android:textAlignment="center"
++        android:textColor="@color/colorGray"
++        android:textSize="20dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView14" />
++
++    <TextView
++        android:id="@+id/textView12"
++        android:layout_width="317dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="38dp"
++        android:layout_marginLeft="38dp"
++        android:layout_marginTop="14dp"
++        android:layout_marginEnd="38dp"
++        android:layout_marginRight="38dp"
++        android:drawableLeft="@drawable/ic_baseline_location_on_242"
++        android:fontFamily="@font/poppins"
++        android:gravity="center_horizontal"
++        android:text="RANSA"
++        android:textAlignment="center"
++        android:textColor="@color/colorGray"
++        android:textSize="20dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView13" />
++
++    <TextView
++        android:id="@+id/textView11"
++        android:layout_width="317dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="38dp"
++        android:layout_marginLeft="38dp"
++        android:layout_marginTop="9dp"
++        android:layout_marginEnd="38dp"
++        android:layout_marginRight="38dp"
++        android:drawableLeft="@drawable/ic_baseline_directions_boat_242"
++        android:fontFamily="@font/poppins"
++        android:gravity="center_horizontal"
++        android:text="FLORIDA"
++        android:textAlignment="center"
++        android:textColor="@color/colorGray"
++        android:textSize="20dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView12" />
++
++    <TextView
++        android:id="@+id/textView10"
++        android:layout_width="317dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="38dp"
++        android:layout_marginLeft="38dp"
++        android:layout_marginTop="14dp"
++        android:layout_marginEnd="38dp"
++        android:layout_marginRight="38dp"
++        android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
++        android:fontFamily="@font/poppins"
++        android:gravity="center_horizontal"
++        android:text="$1500"
++        android:textAlignment="center"
++        android:textColor="@color/colorGray"
++        android:textSize="20dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView11" />
++
++    <Button
++        android:id="@+id/mapButton"
++        style="@style/Widget.MaterialComponents.Button.TextButton"
++        android:layout_width="317dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="38dp"
++        android:layout_marginLeft="38dp"
++        android:layout_marginEnd="38dp"
++        android:layout_marginRight="38dp"
++        android:layout_marginBottom="221dp"
++        android:background="@drawable/border_text"
++        android:text="Track"
++        android:textColor="@color/colorPrimary"
++        app:backgroundTint="@color/colorPrimaryDark"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent" />
++
++    <TextView
++        android:id="@+id/textView13"
++        android:layout_width="317dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="38dp"
++        android:layout_marginLeft="38dp"
++        android:layout_marginTop="17dp"
++        android:layout_marginEnd="38dp"
++        android:layout_marginRight="38dp"
++        android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
++        android:fontFamily="@font/poppins"
++        android:gravity="center_horizontal"
++        android:text="GRUPO NOVO SA DE CV"
++        android:textAlignment="center"
++        android:textColor="@color/colorGray"
++        android:textSize="20dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView15" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/Activitys/carUp.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/Activitys/carUp.kt	(date 1617046747530)
++++ app/src/main/java/Activitys/carUp.kt	(date 1617046747530)
+@@ -0,0 +1,22 @@
++package Activitys
++
++import android.content.Intent
++import androidx.appcompat.app.AppCompatActivity
++import android.os.Bundle
++import com.example.matusintl.databinding.ActivityCarUpBinding
++
++private lateinit var binding: ActivityCarUpBinding
++
++class carUp : AppCompatActivity() {
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        binding = ActivityCarUpBinding.inflate(layoutInflater)
++        val view = binding.root
++        setContentView(view)
++
++        binding.mapButton.setOnClickListener {
++            val intent = Intent(this, Find::class.java)
++            startActivity(intent)
++        }
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">MatusIntl</string>\r\n    <string name=\"inicio\">Inicio</string>\r\n    <!-- TODO: Remove or change this placeholder text -->\r\n    <string name=\"hello_blank_fragment\">Hello blank fragment</string>\r\n    <string name=\"Usuario\">Usuario</string>\r\n    <string name=\"Tracking\">string/Tracking</string>\r\n    <string name=\"Notificaciones\">string/Notificaciones</string>\r\n    <string name=\"registrar_con_huella\">Registrar con huella</string>\r\n    <string name=\"ingresar\">ingresar</string>\r\n    <string name=\"mail\">mail</string>\r\n    <string name=\"matus\">Matus</string>\r\n    <string name=\"logo\">logo</string>\r\n    <string name=\"bienvenido\">Bienvenido</string>\r\n    <string name=\"content_description_end_icon\">correo</string>\r\n    <string name=\"contrase_a\">contraseña</string>\r\n    <string name=\"correo\">correo</string>\r\n    <string name=\"contra\" />\r\n    <string name=\"home\">home</string>\r\n    <string name=\"user\">user</string>\r\n    <string name=\"gallery\">gallery</string>\r\n    <string name=\"mapbox_access_token\">pk.eyJ1Ijoia2F0aG9yZWNpbm9zIiwiYSI6ImNrbWUzNmxmNjBua28yeW14a3h0bXMzcGgifQ.xddlU6mtgqMJvISIzlHfOQ</string>\r\n    <string name=\"lote\">Lote</string>\r\n\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/res/values/strings.xml	(date 1617046256450)
+@@ -19,6 +19,13 @@
+     <string name="home">home</string>
+     <string name="user">user</string>
+     <string name="gallery">gallery</string>
++    <string name="Link1">
++        <a href="https://drive.google.com/drive/folders/1mXfc70F8iirm-3C1TFMkldZ2tBBoSiDt?usp=sharing">Link1</a>
++        </string>
++    <string name="Link2">
++        <a href="https://drive.google.com/drive/folders/1i1MAqYT92_gcgOC-Ok0f5pLaWR-0DFIL?usp=sharing">Link2</a>
++    </string>
++    string>
+     <string name="mapbox_access_token">pk.eyJ1Ijoia2F0aG9yZWNpbm9zIiwiYSI6ImNrbWUzNmxmNjBua28yeW14a3h0bXMzcGgifQ.xddlU6mtgqMJvISIzlHfOQ</string>
+     <string name="lote">Lote</string>
+ 
+Index: app/src/main/res/drawable/ic_outline_clear_24.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ic_outline_clear_24.xml	(date 1617037323335)
++++ app/src/main/res/drawable/ic_outline_clear_24.xml	(date 1617037323335)
+@@ -0,0 +1,5 @@
++<vector android:alpha="0.93" android:height="24dp"
++    android:tint="#1C2E51" android:viewportHeight="24"
++    android:viewportWidth="24" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
++    <path android:fillColor="@android:color/white" android:pathData="M19,6.41L17.59,5 12,10.59 6.41,5 5,6.41 10.59,12 5,17.59 6.41,19 12,13.41 17.59,19 19,17.59 13.41,12 19,6.41z"/>
++</vector>
+Index: app/src/main/java/Activitys/galleryFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Activitys\r\n\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport androidx.fragment.app.Fragment\r\nimport com.example.matusintl.databinding.FragmentGalleryBinding\r\n\r\n// TODO: Rename parameter arguments, choose names that match\r\n// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER\r\nprivate const val ARG_PARAM1 = \"param1\"\r\nprivate const val ARG_PARAM2 = \"param2\"\r\n\r\n/**\r\n * A simple [Fragment] subclass.\r\n * Use the [galleryFragment.newInstance] factory method to\r\n * create an instance of this fragment.\r\n */\r\nclass galleryFragment : Fragment() {\r\n    // TODO: Rename and change types of parameters\r\n    private var param1: String? = null\r\n    private var param2: String? = null\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        arguments?.let {\r\n            param1 = it.getString(ARG_PARAM1)\r\n            param2 = it.getString(ARG_PARAM2)\r\n        }\r\n    }\r\n    private var _binding: FragmentGalleryBinding?=null\r\n\r\n    private val binding get() = _binding!!\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        _binding = FragmentGalleryBinding.inflate(inflater, container, false)\r\n        val view = binding.root\r\n        return view\r\n    }\r\n\r\n    override fun onDestroyView() {\r\n        super.onDestroyView()\r\n        _binding = null\r\n    }\r\n\r\n    companion object {\r\n        /**\r\n         * Use this factory method to create a new instance of\r\n         * this fragment using the provided parameters.\r\n         *\r\n         * @param param1 Parameter 1.\r\n         * @param param2 Parameter 2.\r\n         * @return A new instance of fragment galleryFragment.\r\n         */\r\n        // TODO: Rename and change types and number of parameters\r\n        @JvmStatic\r\n        fun newInstance(param1: String, param2: String) =\r\n            galleryFragment().apply {\r\n                arguments = Bundle().apply {\r\n                    putString(ARG_PARAM1, param1)\r\n                    putString(ARG_PARAM2, param2)\r\n                }\r\n            }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/Activitys/galleryFragment.kt	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/java/Activitys/galleryFragment.kt	(date 1617035376982)
+@@ -6,6 +6,8 @@
+ import android.view.ViewGroup
+ import androidx.fragment.app.Fragment
+ import com.example.matusintl.databinding.FragmentGalleryBinding
++import com.google.rpc.Help
++import io.perfmark.Link
+ 
+ // TODO: Rename parameter arguments, choose names that match
+ // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+@@ -33,6 +35,8 @@
+ 
+     private val binding get() = _binding!!
+ 
++
++
+     override fun onCreateView(
+         inflater: LayoutInflater,
+         container: ViewGroup?,
+@@ -41,7 +45,13 @@
+         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
+         val view = binding.root
+         return view
++
++
++
++
++
+     }
++
+ 
+     override fun onDestroyView() {
+         super.onDestroyView()
+Index: app/src/main/java/Activitys/trackerFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Activitys\r\n\r\nimport android.content.Intent\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport androidx.fragment.app.Fragment\r\nimport com.example.matusintl.PopUpCar\r\nimport com.example.matusintl.databinding.FragmentTrackerBinding\r\n\r\n\r\n// TODO: Rename parameter arguments, choose names that match\r\n// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER\r\nprivate const val ARG_PARAM1 = \"param1\"\r\nprivate const val ARG_PARAM2 = \"param2\"\r\n\r\n/**\r\n * A simple [Fragment] subclass.\r\n * Use the [trackerFragment.newInstance] factory method to\r\n * create an instance of this fragment.\r\n */\r\nclass trackerFragment : Fragment() {\r\n    // TODO: Rename and change types of parameters\r\n    private var param1: String? = null\r\n    private var param2: String? = null\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        arguments?.let {\r\n            param1 = it.getString(ARG_PARAM1)\r\n            param2 = it.getString(ARG_PARAM2)\r\n        }\r\n    }\r\n    private var _binding: FragmentTrackerBinding? = null\r\n    private val binding get() = _binding!!\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        // Inflate the layout for this fragment\r\n       _binding = FragmentTrackerBinding.inflate(inflater, container, false)\r\n        val view = binding.root\r\n        return  view\r\n\r\n    }\r\n\r\n    override fun onActivityCreated(savedInstanceState: Bundle?) {\r\n        super.onActivityCreated(savedInstanceState)\r\n        binding.buttonTrack.setOnClickListener {\r\n            activity?.let {\r\n                val intent = Intent(it, PopUpCar::class.java)\r\n                it.startActivity(intent)\r\n            }\r\n        }\r\n        return\r\n    }\r\n\r\n    override fun onDestroyView() {\r\n        super.onDestroyView()\r\n        _binding = null\r\n    }\r\n\r\n    companion object {\r\n        /**\r\n         * Use this factory method to create a new instance of\r\n         * this fragment using the provided parameters.\r\n         *\r\n         * @param param1 Parameter 1.\r\n         * @param param2 Parameter 2.\r\n         * @return A new instance of fragment trackerFragment.\r\n         */\r\n        // TODO: Rename and change types and number of parameters\r\n        @JvmStatic\r\n        fun newInstance(param1: String, param2: String) =\r\n            trackerFragment().apply {\r\n                arguments = Bundle().apply {\r\n                    putString(ARG_PARAM1, param1)\r\n                    putString(ARG_PARAM2, param2)\r\n                }\r\n            }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/Activitys/trackerFragment.kt	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/java/Activitys/trackerFragment.kt	(date 1617048467331)
+@@ -1,12 +1,12 @@
+ package Activitys
+ 
++import android.app.AlertDialog
+ import android.content.Intent
+ import android.os.Bundle
+ import android.view.LayoutInflater
+ import android.view.View
+ import android.view.ViewGroup
+ import androidx.fragment.app.Fragment
+-import com.example.matusintl.PopUpCar
+ import com.example.matusintl.databinding.FragmentTrackerBinding
+ 
+ 
+@@ -51,11 +51,13 @@
+         super.onActivityCreated(savedInstanceState)
+         binding.buttonTrack.setOnClickListener {
+             activity?.let {
+-                val intent = Intent(it, PopUpCar::class.java)
++                val intent = Intent(it, carUp::class.java)
+                 it.startActivity(intent)
+             }
+         }
+         return
++                // if the dialog is cancelable
++
+     }
+ 
+     override fun onDestroyView() {
+Index: app/src/main/res/layout/activity_out.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"@color/colorPrimaryDark\"\r\n    tools:context=\"Activitys.Out\">\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:fontFamily=\"@font/poppins\"\r\n        android:gravity=\"center_horizontal\"\r\n        android:text=\"¡Muchas gracias por preferirnos\"\r\n        android:textAlignment=\"center\"\r\n        android:textColor=\"@color/colorPrimary\"\r\n        android:textSize=\"18sp\"\r\n        tools:layout_editor_absoluteX=\"0dp\"\r\n        tools:layout_editor_absoluteY=\"308dp\" />\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_out.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/res/layout/activity_out.xml	(date 1617037066023)
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+@@ -7,15 +8,34 @@
+     tools:context="Activitys.Out">
+ 
+     <TextView
++        android:id="@+id/textView9"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
++        android:layout_marginBottom="328dp"
+         android:fontFamily="@font/poppins"
+         android:gravity="center_horizontal"
+         android:text="¡Muchas gracias por preferirnos"
+         android:textAlignment="center"
+         android:textColor="@color/colorPrimary"
+         android:textSize="18sp"
+-        tools:layout_editor_absoluteX="0dp"
+-        tools:layout_editor_absoluteY="308dp" />
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent" />
++
++    <ImageView
++        android:layout_width="250dp"
++        android:layout_height="250dp"
++        android:layout_marginStart="75dp"
++        android:layout_marginLeft="75dp"
++        android:layout_marginTop="157dp"
++        android:layout_marginEnd="75dp"
++        android:layout_marginRight="75dp"
++        android:layout_marginBottom="16dp"
++        android:src="@drawable/logo12"
++        app:layout_constraintBottom_toTopOf="@+id/textView9"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
+ 
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_tracker.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<FrameLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    tools:context=\"Activitys.trackerFragment\"\r\n    android:background=\"@drawable/backi\">\r\n\r\n    <com.google.android.material.card.MaterialCardView\r\n        android:id=\"@+id/cardnotification\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"100dp\"\r\n        android:layout_marginTop=\"130dp\"\r\n        android:layout_marginLeft=\"30dp\"\r\n        android:layout_marginRight=\"30dp\"\r\n        android:background=\"@color/colorPrimary\"\r\n        android:elevation=\"8dp\">\r\n\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:orientation=\"vertical\"\r\n            android:padding=\"16dp\"/>\r\n\r\n        <!-- Title, secondary and supporting text -->\r\n        <TextView\r\n            android:id=\"@+id/track\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"20dp\"\r\n            android:layout_marginTop=\"10dp\"\r\n            android:text=\"Tracking de Vehículos\"\r\n            android:layout_marginLeft=\"20dp\"\r\n            android:textAppearance=\"?attr/textAppearanceHeadline6\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/texto\"\r\n            android:layout_width=\"290dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"20dp\"\r\n            android:layout_marginTop=\"35dp\"\r\n            android:text=\"Estimado cliente en su MatusApp puede ver los tracking de sus vehículos, solo ingrese el número de VIN del vehículo a reastrear.\"\r\n            android:textAlignment=\"viewStart\"\r\n            android:textAppearance=\"?attr/textAppearanceBody2\"\r\n            android:layout_marginLeft=\"20dp\"\r\n            android:gravity=\"start\"\r\n            android:textColor=\"?android:attr/textColorSecondary\" />\r\n\r\n\r\n    </com.google.android.material.card.MaterialCardView>\r\n\r\n    <com.google.android.material.textfield.TextInputLayout\r\n        android:id=\"@+id/vinInputLayout\"\r\n        style=\"@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox\"\r\n        android:layout_width=\"298dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"50dp\"\r\n        android:layout_marginLeft=\"77dp\"\r\n        android:layout_marginTop=\"250dp\"\r\n        android:layout_marginEnd=\"45dp\"\r\n        app:counterTextColor=\"@color/colorPrimary\"\r\n        app:placeholderTextColor=\"@color/colorPrimary\"\r\n        android:layout_marginRight=\"45dp\"\r\n        app:counterEnabled=\"true\"\r\n        app:counterOverflowTextColor=\"@color/colorPrimary\"\r\n        android:textColorHint=\"@color/colorPrimary\"\r\n        app:boxBackgroundMode=\"outline\"\r\n        app:boxCornerRadiusBottomEnd=\"12dp\"\r\n        app:boxCornerRadiusBottomStart=\"12dp\"\r\n        app:boxCornerRadiusTopEnd=\"12dp\"\r\n        app:boxCornerRadiusTopStart=\"12dp\"\r\n        app:boxStrokeColor=\"@color/colorPrimary\"\r\n        app:boxStrokeErrorColor=\"@color/colorRed\"\r\n        app:boxStrokeWidth=\"1dp\"\r\n        app:counterMaxLength=\"17\"\r\n        app:hintAnimationEnabled=\"true\"\r\n        app:hintTextColor=\"@color/colorPrimary\"\r\n        app:startIconContentDescription=\"@string/content_description_end_icon\"\r\n        app:startIconDrawable=\"@drawable/ic_baseline_directions_car_24\"\r\n        app:startIconTint=\"@color/colorPrimary\"\r\n        tools:layout_editor_absoluteX=\"78dp\"\r\n        android:hint=\"VIN\"\r\n        tools:layout_editor_absoluteY=\"344dp\">\r\n\r\n        <com.google.android.material.textfield.TextInputEditText\r\n            android:id=\"@+id/vin\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"63dp\"\r\n            android:inputType=\"text\"\r\n            android:textColorHint=\"@color/colorPrimary\"\r\n            android:textColor=\"@color/colorPrimary\" />\r\n\r\n    </com.google.android.material.textfield.TextInputLayout>\r\n\r\n    <Button\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:text=\"Información\"\r\n        android:id=\"@+id/buttonTrack\"\r\n        android:textColor=\"@color/colorPrimaryDark\"\r\n        android:layout_marginStart=\"150dp\"\r\n        android:layout_marginTop=\"320dp\"/>\r\n\r\n\r\n\r\n</FrameLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_tracker.xml	(revision eb7a4d241c75c536bd55b98bac495ead95321f96)
++++ app/src/main/res/layout/fragment_tracker.xml	(date 1617024707302)
+@@ -100,7 +100,8 @@
+         android:id="@+id/buttonTrack"
+         android:textColor="@color/colorPrimaryDark"
+         android:layout_marginStart="150dp"
+-        android:layout_marginTop="320dp"/>
++        android:layout_marginTop="320dp"
++        android:layout_marginLeft="150dp" />
+ 
+ 
+ 
