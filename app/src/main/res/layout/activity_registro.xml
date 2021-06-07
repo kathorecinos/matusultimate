@@ -11,14 +11,14 @@
         android:layout_width="283dp"
         android:layout_height="484dp"
         android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
         android:layout_marginTop="160dp"
         android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
         android:layout_marginBottom="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="62dp"
-        android:layout_marginRight="63dp"
         app:layout_constraintTop_toTopOf="parent">
 
 
@@ -32,10 +32,10 @@
             android:layout_marginEnd="77dp"
             android:layout_marginBottom="0dp"
             android:fontFamily="@font/roboto_black"
+            android:gravity="center_horizontal"
             android:text="MatusApp"
             android:textAlignment="center"
             android:textColor="@color/colorPrimaryDark"
-            android:gravity="center_horizontal"
             android:textSize="30sp" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -47,6 +47,7 @@
             android:layout_marginLeft="77dp"
             android:layout_marginTop="70dp"
             android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
             android:autofillHints="@string/correo"
             android:hint="@string/correo"
             android:textColorHint="@color/colorPrimaryDark"
@@ -63,7 +64,6 @@
             app:startIconDrawable="@drawable/ic_baseline_mail_24"
             app:startIconTint="@color/colorPrimaryDark"
             tools:layout_editor_absoluteX="78dp"
-            android:layout_marginRight="45dp"
             tools:layout_editor_absoluteY="344dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -80,8 +80,10 @@
             android:layout_width="266dp"
             android:layout_height="60dp"
             android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
             android:layout_marginTop="132dp"
             android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
             android:hint="contraseña"
             android:textColorHint="@color/colorPrimaryDark"
             app:boxCornerRadiusBottomEnd="12dp"
@@ -99,8 +101,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
             app:startIconContentDescription="@string/content_description_end_icon"
             app:startIconDrawable="@drawable/ic_baseline_lock_24"
-            android:layout_marginLeft="7dp"
-            android:layout_marginRight="70dp"
             app:startIconTint="@color/colorPrimaryDark">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -120,10 +120,10 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="190dp"
             android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
             android:text="ingresar por contraseña"
             android:textColor="@color/colorPrimaryDark"
             tools:layout_editor_absoluteX="119dp"
-            android:layout_marginRight="0dp"
             tools:layout_editor_absoluteY="50dp" />
 
         <Button

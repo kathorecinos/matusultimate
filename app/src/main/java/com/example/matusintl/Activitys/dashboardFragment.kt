@@ -35,7 +35,8 @@ class dashboardFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-    private var _binding: FragmentDashboardBinding?=null
+
+    private var _binding: FragmentDashboardBinding? = null
 
     private val binding get() = _binding!!
 

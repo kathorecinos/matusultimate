@@ -29,7 +29,8 @@ class galleryFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-    private var _binding: FragmentGalleryBinding?=null
+
+    private var _binding: FragmentGalleryBinding? = null
 
     private val binding get() = _binding!!
 

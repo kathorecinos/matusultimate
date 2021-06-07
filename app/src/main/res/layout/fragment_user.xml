@@ -3,30 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.matusintl.Activitys.UserFragment"
-    android:background="@drawable/backgroundd">
+    android:background="@drawable/backgroundd"
+    tools:context="com.example.matusintl.Activitys.UserFragment">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circuloUser"
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginStart="145dp"
-        android:layout_marginTop="215dp"
         android:layout_marginLeft="145dp"
+        android:layout_marginTop="215dp"
         android:src="@drawable/cam" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="150dp"
         android:fontFamily="@font/roboto_black"
         android:text="Datos de Usuario"
         android:textColor="@color/colorPrimary"
         android:textSize="25dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="150dp"
         tools:layout_editor_absoluteX="109dp"
-        android:layout_marginLeft="110dp"
         tools:layout_editor_absoluteY="119dp" />
 
     <ImageView
@@ -34,11 +34,11 @@
         android:layout_width="294dp"
         android:layout_height="455dp"
         android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
         android:layout_marginTop="145dp"
         android:layout_marginEnd="59dp"
-        android:layout_marginBottom="185dp"
-        android:layout_marginLeft="58dp"
         android:layout_marginRight="59dp"
+        android:layout_marginBottom="185dp"
         android:src="@drawable/borderwhite" />
 
     <TextView
@@ -48,9 +48,9 @@
         android:layout_marginStart="100dp"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="410dp"
-        android:textColor="@color/colorPrimary"
         android:fontFamily="@font/roboto_black"
         android:text="cbenitezreyes61@gmail.com"
+        android:textColor="@color/colorPrimary"
         tools:layout_editor_absoluteY="378dp" />
 
     <TextView
@@ -60,10 +60,10 @@
         android:layout_marginStart="115dp"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="380dp"
-        android:textColor="@color/colorPrimary"
-        android:fontFamily="@font/roboto_black"
         android:layout_marginBottom="150dp"
+        android:fontFamily="@font/roboto_black"
         android:text="GRUPO NOVO SA DE CV"
+        android:textColor="@color/colorPrimary"
         tools:layout_editor_absoluteY="408dp" />
 
     <TextView
@@ -84,13 +84,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
         android:layout_marginTop="500dp"
         android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
         android:layout_marginBottom="118dp"
         android:text="Actualizar datos"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginLeft="125dp"
-        android:layout_marginRight="115dp"
         android:tint="@color/colorPrimaryDark" />
 
 </FrameLayout>

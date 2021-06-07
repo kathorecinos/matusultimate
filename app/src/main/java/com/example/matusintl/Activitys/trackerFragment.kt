@@ -34,6 +34,7 @@ class trackerFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
+
     private var _binding: FragmentTrackerBinding? = null
     private val binding get() = _binding!!
 

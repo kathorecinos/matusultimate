@@ -30,6 +30,7 @@ class historyFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
+
     private var _binding: FragmentHistoryBinding? = null
     private val binding get() = _binding!!
 

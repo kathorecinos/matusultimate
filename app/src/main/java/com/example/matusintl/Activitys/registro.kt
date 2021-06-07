@@ -57,7 +57,7 @@ class registro : AppCompatActivity() {
                 }
 
             })
-        promptInfo= BiometricPrompt.PromptInfo.Builder()
+        promptInfo = BiometricPrompt.PromptInfo.Builder()
             .setTitle("Ingrese su huella")
             .setSubtitle("Para ingresar a su MatusApp solo ponga su dedo en la huella para reconocimiento dactilar")
             .setNegativeButtonText("Usar contraseña")

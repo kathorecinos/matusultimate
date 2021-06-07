@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.matusintl.Activitys.trackerFragment"
-    android:background="@drawable/backi">
+    android:background="@drawable/backi"
+    tools:context="com.example.matusintl.Activitys.trackerFragment">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardnotification"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="130dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="130dp"
         android:layout_marginRight="30dp"
         android:background="@color/colorPrimary"
         android:elevation="8dp">
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp"/>
+            android:padding="16dp" />
 
         <!-- Title, secondary and supporting text -->
         <TextView
@@ -29,9 +29,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Tracking de Vehículos"
-            android:layout_marginLeft="20dp"
             android:textAppearance="?attr/textAppearanceHeadline6" />
 
         <TextView
@@ -39,12 +39,12 @@
             android:layout_width="290dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="35dp"
+            android:gravity="start"
             android:text="Estimado cliente en su MatusApp puede ver los tracking de sus vehículos, solo ingrese el número de VIN del vehículo a reastrear."
             android:textAlignment="viewStart"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:layout_marginLeft="20dp"
-            android:gravity="start"
             android:textColor="?android:attr/textColorSecondary" />
 
 
@@ -59,11 +59,8 @@
         android:layout_marginLeft="77dp"
         android:layout_marginTop="250dp"
         android:layout_marginEnd="45dp"
-        app:counterTextColor="@color/colorPrimary"
-        app:placeholderTextColor="@color/colorPrimary"
         android:layout_marginRight="45dp"
-        app:counterEnabled="true"
-        app:counterOverflowTextColor="@color/colorPrimary"
+        android:hint="VIN"
         android:textColorHint="@color/colorPrimary"
         app:boxBackgroundMode="outline"
         app:boxCornerRadiusBottomEnd="12dp"
@@ -73,14 +70,17 @@
         app:boxStrokeColor="@color/colorPrimary"
         app:boxStrokeErrorColor="@color/colorRed"
         app:boxStrokeWidth="1dp"
+        app:counterEnabled="true"
         app:counterMaxLength="17"
+        app:counterOverflowTextColor="@color/colorPrimary"
+        app:counterTextColor="@color/colorPrimary"
         app:hintAnimationEnabled="true"
         app:hintTextColor="@color/colorPrimary"
+        app:placeholderTextColor="@color/colorPrimary"
         app:startIconContentDescription="@string/content_description_end_icon"
         app:startIconDrawable="@drawable/ic_baseline_directions_car_24"
         app:startIconTint="@color/colorPrimary"
         tools:layout_editor_absoluteX="78dp"
-        android:hint="VIN"
         tools:layout_editor_absoluteY="344dp">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -88,21 +88,20 @@
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:inputType="text"
-            android:textColorHint="@color/colorPrimary"
-            android:textColor="@color/colorPrimary" />
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        android:id="@+id/buttonTrack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Información"
-        android:id="@+id/buttonTrack"
-        android:textColor="@color/colorPrimaryDark"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="320dp" />
-
+        android:layout_marginTop="320dp"
+        android:text="Información"
+        android:textColor="@color/colorPrimaryDark" />
 
 
 </FrameLayout>

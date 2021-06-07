@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.matusintl.Activitys.dashboardFragment"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    tools:context="com.example.matusintl.Activitys.dashboardFragment">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/carduser"
@@ -18,40 +18,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp"/>
+            android:padding="16dp" />
 
         <!-- Title, secondary and supporting text -->
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/nameUserImport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
+            android:layout_marginLeft="110dp"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="110dp"
-            android:textAppearance="?attr/textAppearanceHeadline6"
-            android:text="username" />
+            android:text="username"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
             android:id="@+id/importname"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="110dp"
-            android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"
-            android:text="importNameCorp" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
-            android:id="@+id/mail2"
-            android:text="correo"
             android:layout_marginStart="40dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:text="importNameCorp"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"
-            android:layout_marginLeft="110dp" />
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/mail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="70dp"
+            android:text="correo"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="?android:attr/textColorSecondary" />
     </com.google.android.material.card.MaterialCardView>
 
 
@@ -59,8 +59,8 @@
         android:id="@+id/cardnotification"
         android:layout_width="match_parent"
         android:layout_height="124dp"
-        android:layout_marginTop="175dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="175dp"
         android:layout_marginRight="30dp"
         android:background="@color/colorPrimary"
         android:elevation="8dp">
@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp"/>
+            android:padding="16dp" />
 
         <!-- Title, secondary and supporting text -->
         <TextView
@@ -77,9 +77,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Notificación Matus"
-            android:layout_marginLeft="20dp"
             android:textAppearance="?attr/textAppearanceHeadline6" />
 
         <TextView
@@ -87,19 +87,15 @@
             android:layout_width="287dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="35dp"
+            android:gravity="start"
             android:text="Estimado cliente le comentamos que el cambio de horario de Verano a invierno sera este Domingo 14 de Marzo. En Matus International trabajamos para ti."
             android:textAlignment="viewStart"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:layout_marginLeft="20dp"
-            android:gravity="start"
             android:textColor="?android:attr/textColorSecondary" />
 
     </com.google.android.material.card.MaterialCardView>
-
-
-
-
 
 
 </FrameLayout>

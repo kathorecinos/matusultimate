@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <group
-        android:visible="true"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:visible="true" />
 
     <item
         android:id="@+id/inicio"
-        android:title="@string/inicio"
+        android:contentDescription="@string/home"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_home_24"
-        android:contentDescription="@string/home"/>
+        android:title="@string/inicio" />
     <item
         android:id="@+id/usuario"
-        android:title="@string/Usuario"
+        android:contentDescription="@string/user"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_people_alt_24"
-        android:contentDescription="@string/user"/>
+        android:title="@string/Usuario" />
     <item
         android:id="@+id/Tracking"
-        android:title="Tracking"
+        android:contentDescription="@string/Tracking"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_car_repair_24"
-        android:contentDescription="@string/Tracking"/>
+        android:title="Tracking" />
     <item
         android:id="@+id/gallery"
-        android:title="Galleria"
+        android:contentDescription="@string/gallery"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_image_search_24"
-        android:contentDescription="@string/gallery"/>
+        android:title="Galleria" />
     <item
         android:id="@+id/history"
-        android:title="Historial"
+        android:contentDescription="history"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_history_24"
-        android:contentDescription="history"/>
+        android:title="Historial" />
 
 </menu>
