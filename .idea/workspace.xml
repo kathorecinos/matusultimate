@@ -46,9 +46,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68d53e85-76c3-4602-a1f5-5933ef938b43" name="Default Changelist" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="68d53e85-76c3-4602-a1f5-5933ef938b43" name="Default Changelist" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -652,10 +650,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="517" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1618447097835" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1623098155101">
+    <state x="552" y="253" width="1181" height="542" key="Vcs.Push.Dialog.v2" timestamp="1623189082555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623098155101" />
+    <state x="552" y="253" width="1181" height="542" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623189082555" />
     <state x="923" y="583" key="chooseDestDirectoryDialog" timestamp="1618248797337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
