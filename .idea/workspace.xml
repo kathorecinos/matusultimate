@@ -48,7 +48,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68d53e85-76c3-4602-a1f5-5933ef938b43" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/matusintl/Activitys/trackerFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/matusintl/Activitys/trackerFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Signing Configs" />
@@ -449,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623098735487</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit">
+      <created>1623170596503</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1623170596503</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -578,10 +584,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="421" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1615908282109" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1623164780705">
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1623171834506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1623164780705" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1623171834506" />
     <state x="1020" y="278" key="AndroidCreateResourceDirectoryDialog" timestamp="1616770008643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -634,10 +640,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="400" key="ScreenshotRecorder.Options.Dimensions/0.0.1920.1040@0.0.1920.1040" timestamp="1618863402919" />
-    <state x="593" y="210" key="SettingsEditor" timestamp="1621644723884">
+    <state x="593" y="210" key="SettingsEditor" timestamp="1623181646971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="593" y="210" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621644723884" />
+    <state x="593" y="210" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623181646971" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1623099069922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -666,10 +672,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="428" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621643776929" />
-    <state x="601" y="245" width="700" height="530" key="recent.locations.popup" timestamp="1618336800437">
+    <state x="601" y="245" width="700" height="530" key="recent.locations.popup" timestamp="1623171982779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="601" y="245" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618336800437" />
+    <state x="601" y="245" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623171982779" />
     <state x="782" y="553" key="refactoring.ChangeSignatureDialog" timestamp="1618517052841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

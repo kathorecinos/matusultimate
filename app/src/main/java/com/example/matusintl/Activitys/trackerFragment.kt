@@ -66,7 +66,7 @@ class trackerFragment : Fragment() {
                 dato.toString().equals("search")
 
             } else {
-                Log.d
+
             }
 
             activity?.let {
